@@ -320,6 +320,7 @@ extension PartialSheet {
 }
 
 // MARK: - Keyboard Handlers Methods
+@available(iOSApplicationExtension, unavailable)
 extension PartialSheet {
 
     /// Add the keyboard offset
@@ -353,6 +354,7 @@ extension PartialSheet {
 }
 
 // MARK: - PreferenceKeys Handlers
+@available(iOSApplicationExtension, unavailable)
 extension PartialSheet {
 
     /// Preference Key for the Sheet Presener
