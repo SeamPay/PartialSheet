@@ -10,6 +10,7 @@ import SwiftUI
 import Combine
 
 /// This is the modifier for the Partial Sheet
+@available(iOSApplicationExtension, unavailable)
 struct PartialSheet: ViewModifier {
     
     // MARK: - Public Properties
