@@ -152,6 +152,7 @@ struct PartialSheet: ViewModifier {
 }
 
 //MARK: - Platfomr Specific Sheet Builders
+@available(iOSApplicationExtension, unavailable)
 extension PartialSheet {
 
     //MARK: - Mac and iPad Sheet Builder
@@ -249,6 +250,7 @@ extension PartialSheet {
 }
 
 // MARK: - Drag Gesture & Handler
+@available(iOSApplicationExtension, unavailable)
 extension PartialSheet {
 
     /// Create a new **DragGesture** with *updating* and *onEndend* func
